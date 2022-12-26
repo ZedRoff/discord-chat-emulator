@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+flex-direction:column;
+gap: 50px;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    background: #293241;
+}
+div {
+ 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+header {
+    background: #5865F2;
+    padding: 25px;
+    font-weight:bold;
+    text-transform: uppercase;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+h2 {
+    color:white;
+}
+main {
+    background: #2e3136;
+    height: 250px;
+    overflow: scroll;
+    overflow-x: hidden;
+   
+}
+ul {
+    padding: 15px;
+    display:flex;
+    flex-direction:column;
+    gap: 25px;
+}
+li {
+    background: #2E2E2E;
+    color:#E2E2E2;
+    border: 1px solid black;
+    list-style-type: none;
+    padding: 5px;
+}
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #858585 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #858585;
+    border-radius: 10px;
+    border: 3px solid black;
+  }
+footer {
+    -webkit-box-shadow: 0px -4px 19px -5px rgba(0,0,0,0.64); 
+box-shadow: 0px -4px 19px -5px rgba(0,0,0,0.64);
+background: #2e3136;
+padding: 15px;
+display:flex;
+justify-content: space-evenly;
+flex-flow: row wrap;
+align-items: center;
+}
+button {
+    background: #43464a;
+    width: 100px;
+    padding: 15px;
+    border-radius: 5px;
+    color:white;
+    outline:none;
+    border:none;
+}
+textarea {
+    background:none;
+    padding: 15px;
+    outline:none;
+    border:none;
+    color:white;
+}
+input {
+    border:none;
+    border-bottom: 2px solid black;
+    color:black;
+    padding: 15px;
+    outline:none;
+}
